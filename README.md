@@ -4,9 +4,9 @@
 * **Purpose:** The objective of this assignment is to implement, analyze, and empirically evaluate classic divide-and-conquer algorithms, comparing their theoretical complexities with practical runtime performance.
 * **Implemented Algorithms:**
     1. **MergeSort:** Optimized with a linear merge, reusable auxiliary buffer, and an insertion sort cutoff for small inputs ($\Theta(n \log n)$).
-    2. **QuickSort:** Randomized pivot selection, in-place partitioning, and tail-recursion optimization (smaller-first recursion) ($O(n \log n)$ expected, $O(n^2)$ worst-case)[cite: 1].
-    3. **Deterministic Select (Median-of-Medians):** Group-of-5 strategy with guaranteed linear worst-case time complexity ($O(n)$)[cite: 1].
-    4. **Closest Pair of Points:** Divide-and-conquer geometric approach using sorted coordinates and strip-checking ($\Theta(n \log n)$)[cite: 1].
+    2. **QuickSort:** Randomized pivot selection, in-place partitioning, and tail-recursion optimization (smaller-first recursion) ($O(n \log n)$ expected, $O(n^2)$ worst-case).
+    3. **Deterministic Select (Median-of-Medians):** Group-of-5 strategy with guaranteed linear worst-case time complexity ($O(n)$).
+    4. **Closest Pair of Points:** Divide-and-conquer geometric approach using sorted coordinates and strip-checking ($\Theta(n \log n)$).
 
 ---
 
@@ -31,11 +31,11 @@
 ---
 
 ## C. Experimental Results
-* **Execution-Time Tables:** Data collected via `System.nanoTime()` across small ($n=100$), medium ($n=1,000$), and large ($n=50,000$) datasets for Random, Sorted, Reverse-Sorted, and Duplicate-heavy structures[cite: 1]. (See `results/results.csv`).
+* **Execution-Time Tables:** Data collected via `System.nanoTime()` across small ($n=100$), medium ($n=1,000$), and large ($n=50,000$) datasets for Random, Sorted, Reverse-Sorted, and Duplicate-heavy structures. (See `results/results.csv`).
 * **Recursion-Depth Results:** Measured maximum stack depth to verify $O(\log n)$ bounds for balanced divide-and-conquer strategies.
 * **Plots:**
-    * Time vs. $n$ graphs located in `plots/time_vs_n.png`[cite: 1].
-    * Recursion Depth vs. $n$ graphs located in `plots/depth_vs_n.png`[cite: 1].
+    * Time vs. $n$ graphs located in `plots/time_vs_n.png`.
+    * Recursion Depth vs. $n$ graphs located in `plots/depth_vs_n.png`.
 
 ---
 
@@ -55,6 +55,6 @@ Implementing these algorithms highlighted the critical gap between asymptotic th
 ---
 
 ## F. Screenshots
-* *Program Output:* Refer to `screenshots/output.png`[cite: 1].
-* *Test Results:* Refer to `screenshots/tests.png`[cite: 1].
-* *Performance Plots:* Refer to `screenshots/plots.png`[cite: 1].
+* *Program Output:* Refer to `screenshots/output.png`.
+* *Test Results:* Refer to `screenshots/tests.png`.
+* *Performance Plots:* Refer to `screenshots/plots.png`.
